@@ -1,0 +1,164 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "TaskManagerUI/1.0.0": {
+        "dependencies": {
+          "DG.AdvancedDataGridView": "1.2.28103.10",
+          "MaterialSkinDataTable": "1.0.1",
+          "NLog": "4.7.14",
+          "NLog.Schema": "4.7.14",
+          "Xanadu.DataGridViewX": "5.1.2",
+          "hima.lib.advanceddatagrid": "1.2.26",
+          "itq2020": "1.0.0"
+        },
+        "runtime": {
+          "TaskManagerUI.dll": {}
+        }
+      },
+      "DG.AdvancedDataGridView/1.2.28103.10": {
+        "runtime": {
+          "lib/net5.0-windows7.0/AdvancedDataGridView.dll": {
+            "assemblyVersion": "1.2.28103.10",
+            "fileVersion": "1.2.28103.10"
+          }
+        }
+      },
+      "hima.lib.advanceddatagrid/1.2.26": {},
+      "itq2020/1.0.0": {
+        "runtime": {
+          "lib/net48/PascalEgyUI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MaterialSkin.2/2.2.1": {
+        "runtime": {
+          "lib/net461/MaterialSkin.dll": {
+            "assemblyVersion": "2.2.1.0",
+            "fileVersion": "2.2.1.0"
+          }
+        }
+      },
+      "MaterialSkinDataTable/1.0.1": {
+        "dependencies": {
+          "MaterialSkin.2": "2.2.1"
+        },
+        "runtime": {
+          "lib/net461/MaterialSkinDataTable.dll": {
+            "assemblyVersion": "1.0.1.0",
+            "fileVersion": "1.0.1.0"
+          }
+        }
+      },
+      "NLog/4.7.14": {
+        "runtime": {
+          "lib/netstandard2.0/NLog.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.7.14.740"
+          }
+        }
+      },
+      "NLog.Schema/4.7.14": {},
+      "Xanadu.DataGridViewX/5.1.2": {
+        "dependencies": {
+          "Xanadu.LocalizedAttributes": "2.0.0"
+        },
+        "runtime": {
+          "lib/net461/Xanadu.DataGridViewX.dll": {
+            "assemblyVersion": "5.1.2.0",
+            "fileVersion": "5.1.2.0"
+          }
+        },
+        "resources": {
+          "lib/net461/ja/Xanadu.DataGridViewX.resources.dll": {
+            "locale": "ja"
+          }
+        }
+      },
+      "Xanadu.LocalizedAttributes/2.0.0": {
+        "runtime": {
+          "lib/netcoreapp2.0/Xanadu.LocalizedAttributes.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TaskManagerUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DG.AdvancedDataGridView/1.2.28103.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hGrG18jzRJOH4dyjqU5JDaK0V0OXlxeh+aNxKEkDHnI/gW71dcKoR2GVpbKCv+hQJ8gJA4zEa7WlfoI+ycydtw==",
+      "path": "dg.advanceddatagridview/1.2.28103.10",
+      "hashPath": "dg.advanceddatagridview.1.2.28103.10.nupkg.sha512"
+    },
+    "hima.lib.advanceddatagrid/1.2.26": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GYsTPxJIcQiCwtnUn9Z8RfaUkcDKSmSSqePz+Rm2qW04N80lUfH2Bvt/5lNXDVhCCGU4Bu+jpTz3+hPMV/XvsA==",
+      "path": "hima.lib.advanceddatagrid/1.2.26",
+      "hashPath": "hima.lib.advanceddatagrid.1.2.26.nupkg.sha512"
+    },
+    "itq2020/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1NBfJ/Vk/S97tPX/Xazwa+GJU/MpuxJJ3DGJPit2MLzcmOU2aB1ZujZ2ikWIhRepK/i6rW+SGyiJsSsBt/EWAA==",
+      "path": "itq2020/1.0.0",
+      "hashPath": "itq2020.1.0.0.nupkg.sha512"
+    },
+    "MaterialSkin.2/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dxOn6yKbNZGiqjFGgjtC+C4yEc53PApwDabhcgOdqK+FCdsYUcFh0GunmJUPMJ2uIM2PmGDZM9Nf0BQCX9uhPg==",
+      "path": "materialskin.2/2.2.1",
+      "hashPath": "materialskin.2.2.2.1.nupkg.sha512"
+    },
+    "MaterialSkinDataTable/1.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JoVZSX/Y8khLcHx0UHTeBv8HhNUmfovGEy08MspkTGpZL8qpLRRFzCt8G3+vNJpLzJeUFpg4A00vJa5OdEFAKw==",
+      "path": "materialskindatatable/1.0.1",
+      "hashPath": "materialskindatatable.1.0.1.nupkg.sha512"
+    },
+    "NLog/4.7.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R1Nn+Zi2mSiKf82zII+8ZhGTr66CmCDLlpDq/0N0Y22TDrioYeP6t3XWzJVTi3OXaHJ/jiXId/okXQu8e0g3uw==",
+      "path": "nlog/4.7.14",
+      "hashPath": "nlog.4.7.14.nupkg.sha512"
+    },
+    "NLog.Schema/4.7.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ExtaAbkpoF7RgiVj6FcNPU1+VrCUt60S/5NLEcnusrmMTWlmQ4HCCUTXFOMPUGcK3q9bJtxwzgdiake0Ttifyw==",
+      "path": "nlog.schema/4.7.14",
+      "hashPath": "nlog.schema.4.7.14.nupkg.sha512"
+    },
+    "Xanadu.DataGridViewX/5.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CuIzZcZX1ht3N2dQeZRtIJ3mUIuZfj0XBUmAS+xwNHO9uX/WxXhhRNPQvEFrYsOjNlN304Puc/lqZkai/EhH/Q==",
+      "path": "xanadu.datagridviewx/5.1.2",
+      "hashPath": "xanadu.datagridviewx.5.1.2.nupkg.sha512"
+    },
+    "Xanadu.LocalizedAttributes/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-olFevzl21xBXZvP61uqySsI6lj/adLRP62kNsJl3w18nubLSz7nT4eg6itNsHpIFgQ37wpw3ASWRhNRMGZEhQw==",
+      "path": "xanadu.localizedattributes/2.0.0",
+      "hashPath": "xanadu.localizedattributes.2.0.0.nupkg.sha512"
+    }
+  }
+}

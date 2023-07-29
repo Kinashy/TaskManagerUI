@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnablePreviewFeatures>true</EnablePreviewFeatures>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Core\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DG.AdvancedDataGridView" Version="1.2.28103.10" />
+    <PackageReference Include="hima.lib.advanceddatagrid" Version="1.2.26" />
+    <PackageReference Include="itq2020" Version="1.0.0" />
+    <PackageReference Include="MaterialSkinDataTable" Version="1.0.1" />
+    <PackageReference Include="NLog" Version="4.7.14" />
+    <PackageReference Include="NLog.Schema" Version="4.7.14" />
+    <PackageReference Include="Xanadu.DataGridViewX" Version="5.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="C:\Users\Олег\.nuget\packages\nlog.config\4.7.14\contentFiles\any\any\NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="C:\Users\Олег\.nuget\packages\nlog.schema\4.7.14\contentFiles\any\any\NLog.xsd">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
